@@ -1,4 +1,4 @@
-import {BsPersonCircle} from 'react-icons/bs'
+import { BsPersonCircle } from 'react-icons/bs'
 
 export default function Navbar() {
 
@@ -15,11 +15,25 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/departments/form">Departamentos</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Departamentos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/departments/form">Registrar Departamento</a>
+                                <a class="dropdown-item" href="/departments/list">Lista de Departamentos</a>
+                               
+                            </div>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/employees/form">Funcionários</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Funcionarios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/employees/form">Registrar Funcionario</a>
+                                <a class="dropdown-item" href="/employees/list">Lista de Funcionarios</a>
+                               
+                            </div>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-success" href="/signup">Cadastrar-se</a>
