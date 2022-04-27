@@ -19,7 +19,7 @@ export default function Navbar() {
                             <a className="nav-link" href="/departments/form">Departamentos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/employees">Funcionários</a>
+                            <a className="nav-link" href="/employees/form">Funcionários</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-success" href="/signup">Cadastrar-se</a>
