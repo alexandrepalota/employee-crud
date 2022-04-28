@@ -4,8 +4,8 @@ export default function DepartmentList() {
         <>
             <h1>lista de departamentos</h1>
        
-            <table class="table">
-                <thead class="thead-dark">
+            <table className="table">
+                <thead className="thead-dark">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col-3">Id</th>

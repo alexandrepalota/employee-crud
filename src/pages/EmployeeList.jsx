@@ -3,8 +3,8 @@ export default function EmployeeList() {
     return (
         <>
             <h1>Lista de funcionários</h1>
-            <table class="table">
-                <thead class="thead-dark">
+            <table className="table">
+                <thead className="thead-dark">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col-3">Id</th>
